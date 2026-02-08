@@ -82,11 +82,10 @@ list3 = [5, 6]
 [1, 3, 7]
 ```
 
-python
+```python
 list1 = [1, 2, 3, 4, 5, 6, 7]
 list2 = [2, 4]
 list3 = [5, 6]
-
 ````
 
 ## 6. BONUS – Merge two sorted lists into a sorted list
@@ -102,7 +101,7 @@ list2 = [2, 5, 7]
 [1, 2, 4, 5, 6, 7]
 ```
 
-python
+```python
 list1 = [1, 4, 6]
 list2 = [2, 5, 7]
 
@@ -121,16 +120,17 @@ list2 = [2, 4]
 4
 ```
 
-python
+```python
 list1 = [1, 2, 3, 4, 5, 2, 2]
 list2 = [2, 4]
+```
 
 ## 8. Remove names by blacklist
 
 ```python
 names = ["danny", "moshe", "suzi", "sharon", "avi"]
 blacklist = ["moshe", "avi"]
-````
+```
 
 **Result:**
 
@@ -138,9 +138,10 @@ blacklist = ["moshe", "avi"]
 ["danny", "suzi", "sharon"]
 ```
 
-python
+```python
 names = ["danny", "moshe", "suzi", "sharon", "avi"]
 blacklist = ["moshe", "avi"]
+```
 
 ## 9. Separate even and odd numbers
 
@@ -155,8 +156,9 @@ list_even = [2, 4, 6]
 list_odd = [1, 3, 5, 7]
 ```
 
-python
+```python
 list1 = [1, 2, 3, 4, 5, 6, 7]
+```
 
 ## 10. Copy only ALL-uppercase strings
 
@@ -170,8 +172,9 @@ list1 = ["HELLO", "World", "PYTHON", "code", "TEST"]
 ["HELLO", "PYTHON", "TEST"]
 ```
 
-python
+```python
 list1 = ["HELLO", "World", "PYTHON", "code", "TEST"]
+```
 
 ## 11. Copy strings that start with a capital letter
 
@@ -181,12 +184,13 @@ list1 = ["Hello", "world", "Python", "java", "Code"]
 
 **Result:**
 
-```
+```python
 ["Hello", "Python", "Code"]
 ```
 
-python
+```python
 list1 = ["Hello", "world", "Python", "java", "Code"]
+```
 
 ## 12. Split sentences into words
 
