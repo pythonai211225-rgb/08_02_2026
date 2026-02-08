@@ -1,5 +1,7 @@
 # Python – Lists & Strings Exercises (with Solutions)
 
+Solve at least **one** question (recommended to try more) using **Python code**
+
 ## 1. Separate even and odd numbers
 
 ```python
@@ -64,4 +66,6 @@ list1 = ["HELLO", "World", "PYTHON", "code"]
 ```
 ["OLLEH", "World", "NOHTYP", "code"]
 ```
+
+Submit email: **[pythonai211225+python10list@gmail.com](mailto:pythonai211225+python10list@gmail.com)**
 
