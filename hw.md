@@ -1,4 +1,4 @@
-# Python – Lists & Strings Exercises (with Solutions)
+# Python – Lists & Strings Exercises 
 
 Solve at least **one** question (recommended to try more) using **Python code**
 
