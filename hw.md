@@ -1,5 +1,7 @@
 # Python – Lists & Strings Exercises (with Solutions)
 
+# Examples
+
 ## 1. Remove items from one list based on another
 
 **Task**
@@ -67,6 +69,8 @@ for item in list1:
 
 print(list3)
 ```
+
+# Exercise--
 
 ## 5. Remove from list1 all items that appear in list2 or list3
 
