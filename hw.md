@@ -1,7 +1,5 @@
 # Python – Lists & Strings Exercises (with Solutions)
 
----
-
 ## 1. Remove items from one list based on another
 
 **Task**
@@ -18,8 +16,6 @@ for item in list2:
 
 print(list1)
 ```
-
----
 
 ## 2. Merge three lists using loops only
 
@@ -44,8 +40,6 @@ for item in list3:
 print(list4)
 ```
 
----
-
 ## 3. Items in list1 that do NOT appear in list2
 
 ```python
@@ -60,8 +54,6 @@ for item in list1:
 print(list3)
 ```
 
----
-
 ## 4. Items that appear in both lists (no duplicates)
 
 ```python
@@ -75,8 +67,6 @@ for item in list1:
 
 print(list3)
 ```
-
----
 
 ## 5. Remove from list1 all items that appear in list2 or list3
 
@@ -99,8 +89,6 @@ list3 = [5, 6]
 
 ````
 
----
-
 ## 6. BONUS – Merge two sorted lists into a sorted list
 
 ```python
@@ -120,8 +108,6 @@ list2 = [2, 5, 7]
 
 ````
 
----
-
 ## 7. Count items from list1 that appear in list2
 
 ```python
@@ -138,10 +124,6 @@ list2 = [2, 4]
 python
 list1 = [1, 2, 3, 4, 5, 2, 2]
 list2 = [2, 4]
-
-````
-
----
 
 ## 8. Remove names by blacklist
 
@@ -160,10 +142,6 @@ python
 names = ["danny", "moshe", "suzi", "sharon", "avi"]
 blacklist = ["moshe", "avi"]
 
-````
-
----
-
 ## 9. Separate even and odd numbers
 
 ```python
@@ -180,10 +158,6 @@ list_odd = [1, 3, 5, 7]
 python
 list1 = [1, 2, 3, 4, 5, 6, 7]
 
-````
-
----
-
 ## 10. Copy only ALL-uppercase strings
 
 ```python
@@ -199,10 +173,6 @@ list1 = ["HELLO", "World", "PYTHON", "code", "TEST"]
 python
 list1 = ["HELLO", "World", "PYTHON", "code", "TEST"]
 
-````
-
----
-
 ## 11. Copy strings that start with a capital letter
 
 ```python
@@ -217,10 +187,6 @@ list1 = ["Hello", "world", "Python", "java", "Code"]
 
 python
 list1 = ["Hello", "world", "Python", "java", "Code"]
-
-````
-
----
 
 ## 12. Split sentences into words
 
@@ -247,8 +213,6 @@ sentences = [
 
 ````
 
----
-
 ## 13. Strip spaces and ignore empty strings
 
 ```python
@@ -265,8 +229,6 @@ python
 list1 = ["  hello  ", "   ", "python", "  code ", ""]
 
 ````
-
----
 
 ## 14. Replace letters in all strings
 
@@ -285,8 +247,6 @@ list1 = ["hello", "world", "python"]
 
 ````
 
----
-
 ## 15. Count strings that end with a specific word
 
 ```python
@@ -303,8 +263,6 @@ python
 list1 = ["good morning", "morning sun", "happy morning", "good night"]
 
 ````
-
----
 
 ## 16. Separate numeric, text, and mixed strings
 
@@ -324,8 +282,6 @@ python
 list1 = ["123", "hello", "42", "F114", "python", "007", "A14"]
 
 ````
-
----
 
 ## 17. Reverse only uppercase words
 
