@@ -82,6 +82,53 @@ grade = int(grade_s)  # work 100%
 #   calc the avg, print it
 #   remove the last grade (hint: use pop)
 #   find the minimum grade (use for loop) and remove it from the list  (hint: remove)
-#   find the maximum grade (use for loop) and add another max grade at the (1) end of the list (2) at the middle
+#   find the maximum grade (use for loop) and add another max grade at the: (1) end of the list (2) at the middle
+
+grades: list[int] = []
+
+while len(grades) < 10:
+    grade_str = input('grade?')
+    while not grade.isdigit():
+        grade_str = input('grade?')
+    grade = int(grade_str)  # work 100%
+
+    if grade < 0 or grade > 100:
+        print('not in range...')
+        continue
+
+    grades.append(grade)
+
+# better - but longer
+# for i in range(1, len(grades)):
+#     if grades[i] > _max:
+#         _max = grades[i]
+
+_max = grades[0]
+for grade in grades:
+    if grade > _max:
+        _max = grade
+
+_min = grades[0]
+for grade in grades:
+    if grade < _min:
+        _min = grade
+
+_sum = 0
+for grade in grades:
+    _sum += grade
+
+_avg = _sum / len(grades)
+print(f"avg is {_avg:.2f}")
+
+#   remove the last grade (hint: use pop)
+grades.pop(-1)
+grades.pop(len(grades) - 1)  # same
+
+#   find the minimum grade (use for loop) and remove it from the list  (hint: remove)
+grades.remove(_min)
+
+#   find the maximum grade (use for loop) and add another max grade at the: (1) end of the list (2) at the middle
+grades.insert(len(grades) // 2, _max)
+grades.append(_max)
 
 
