@@ -62,15 +62,26 @@ print()
 for item in list1:
     print(item, end=' ')
 
-# create an empty list
-# input numbers from the user , use while loop until isdigit, then convert to int
-# add the number to the list if it is between 0-100
-# when the list has 10 grades exit the loop
-# calc the sum of the grades using for loop, print it
-# calc the avg, print it
-# remove the last grade
-# find the minimum grade (use for loop) and remove it from the list
-# find the maximum grade (use for loop) and add another max grade at the end of the list, and at the middle
 
+# create an empty list grades:
+'''
+list[int] = []  # empty list
+'''
+# input grades from the user
+# when the list has 10 valid grades exit the loop
+# use while loop until isdigit, then convert to int
+'''
+grade_s = input('grade?')
+while not grade.isdigit():
+    grade_s = input('grade?')
+grade = int(grade_s)  # work 100%   
+'''
+# add the number to the list if it is between 0-100, if not - don't add it
+# AFTER THE LOOP IS FINISHED:
+#   calc the sum of the grades using for loop, print it
+#   calc the avg, print it
+#   remove the last grade (hint: use pop)
+#   find the minimum grade (use for loop) and remove it from the list  (hint: remove)
+#   find the maximum grade (use for loop) and add another max grade at the (1) end of the list (2) at the middle
 
 
